@@ -2,9 +2,8 @@
 
 namespace School.People.Core
 {
-    public interface IPerson
+    public interface IPerson : IDataEntity
     {
-        Guid Id { get; }
         string LastName { get; }
         string FirstName { get; }
         string MiddleName { get; }

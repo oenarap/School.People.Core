@@ -1,7 +1,7 @@
 ﻿namespace School.People.Core.Attributes
 {
-    public interface ICivicWork : IAttribute, IActivity, IOccupation
+    public interface ICivicWork : IIndexedAttribute, IActivity, IOccupation
     {
-        float TotalHoursWorked { get; }
+        double TotalHoursWorked { get; }
     }
 }

@@ -3,9 +3,10 @@ using Apps.DataClient.Core;
 
 namespace School.People.Core.Repositories
 {
-    public interface IStudentsRepository : IPeopleRepository { }
-    public interface IPersonnelRepository : IPeopleRepository { }
-    public interface IOtherPeopleRepository : IPeopleRepository { }
+    public interface IStudentsRepository : IReadAsync<IPerson>, IInsertAsync<IPerson, Guid?>, IUpdateAsync<IPerson>, IReadAllAsync<IPerson>, IArchiveAsync<IPerson> { }
+    public interface IPersonnelRepository : IReadAsync<IPerson>, IInsertAsync<IPerson, Guid?>, IUpdateAsync<IPerson>, IReadAllAsync<IPerson>, IArchiveAsync<IPerson> { }
+    public interface IOtherPeopleRepository : IReadAsync<IPerson>, IInsertAsync<IPerson, Guid?>, IUpdateAsync<IPerson>, IReadAllAsync<IPerson>, IArchiveAsync<IPerson> { }
     public interface IArchivedPeopleRepository : IReadAllAsync<IPerson> { }
-    public interface IPeopleRepository : IReadAsync<IPerson>, IInsertAsync<IPerson>, IUpdateAsync<IPerson>, IReadAllAsync<IPerson>, IArchiveAsync<IPerson> { }
+    public interface IActivePeopleRepository : IUpdateAsync<IPerson> { }
+    public interface IPersonRepository : IReadAsync<IPerson> { }
 }

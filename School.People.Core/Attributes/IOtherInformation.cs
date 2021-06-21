@@ -1,6 +1,6 @@
 ﻿namespace School.People.Core.Attributes
 {
-    public interface IOtherInformation : IAttribute
+    public interface IOtherInformation : IIndexedAttribute
     {
         string Category { get; }
         string DescriptiveName { get; }

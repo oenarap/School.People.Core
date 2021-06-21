@@ -2,7 +2,7 @@
 
 namespace School.People.Core.Attributes
 {
-    public interface IEligibility : IAttribute
+    public interface IEligibility : IIndexedAttribute
     {
         string EligibilityName { get; }
         double Rating { get; }

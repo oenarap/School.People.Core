@@ -2,7 +2,7 @@
 
 namespace School.People.Core.Attributes
 {
-    public interface ICharacterReferences : IAttribute
+    public interface ICharacterReferencesIds : IAttribute
     {
         Guid? ReferenceA { get; }
         Guid? ReferenceB { get; }

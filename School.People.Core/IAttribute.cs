@@ -2,8 +2,5 @@
 
 namespace School.People.Core
 {
-    public interface IAttribute
-    {
-        Guid Id { get; }
-    }
+    public interface IAttribute : IDataEntity { }
 }

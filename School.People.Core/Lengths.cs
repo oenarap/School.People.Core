@@ -1,9 +1,14 @@
-﻿using System;
-
-namespace School.People.Core
+﻿namespace School.People.Core
 {
-    public static class Constants
+    public static class Lengths
     {
+        // max lengths
+        public const int CommentsMaxLength = 1024;
+        public const int FaqsDetailsMaxLength = 128;
+        public const int OtherInformationDetailsMaxLength = 128;
+        public const int OtherInformationCategoryMaxLength = 16;
+        public const int SalaryGradeAndStepIncrementMaxLength = 16;
+        public const int StatusOfAppointmentMaxLength = 24;
         public const int ContactNumbersMaxLength = 16;
         public const int EmailAddressMaxLength = 64;
         public const int IdNumbersMaxLength = 16;
@@ -14,20 +19,14 @@ namespace School.People.Core
         public const int SexMaxLength = 16;
         public const int ScholarshipOrHonorsReceivedMaxLength = 32;
         public const int HighestLevelOrUnitsEarnedMaxLength = 32;
-        public const int DegreeCourseMaxLength = 64;
-        public const int SchoolNameMaxLength = 64;
-        public const int EducationLevelMaxLength = 64;
-
-        public const int PersonNameFieldsMinLength = 2;
+        public const int EducationLevelMaxLength = 32;
         public const int PersonSurnameMaxLength = 32;
-        public const int PersonFirstNameMaxLength = 64;
         public const int PersonNameExtensionMaxLength = 16;
         public const int PersonTitleMaxLength = 16;
 
-        public const string ContactDetailsTableName = "ContactDetailsTable";
-        public const string PersonalInformationTableName = "PersonalInformationTable";
-        public const string PeopleTableName = "PeopleTable";
-        public const string DateOfBirthTableName = "DateOfBirthTable";
-        public const string EducationTableName = "EducationTable";
+        public const int CommonNamesAndTitlesMaxLength = 64;
+
+        // min lengths
+        public const int PersonNameFieldsMinLength = 2;
     }
 }
