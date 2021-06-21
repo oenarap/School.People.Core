@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Apps.Communication.Contracts" Version="3.0.2.1" />
+    <PackageReference Include="Apps.DataClient.Contracts" Version="2.0.1" />
+  </ItemGroup>
+
+</Project>
