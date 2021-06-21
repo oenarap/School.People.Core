@@ -1,4 +1,4 @@
-﻿using Apps.Communication.Contracts;
+﻿using Apps.Communication.Core;
 
 namespace School.People.Core.Commands
 {

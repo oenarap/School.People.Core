@@ -1,5 +1,5 @@
 ﻿using System;
-using Apps.DataClient.Contracts;
+using Apps.DataClient.Core;
 
 namespace School.People.Core.Repositories
 {

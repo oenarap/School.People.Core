@@ -2,11 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Authors>Jake B. Parane</Authors>
+    <Description>Class library containing core abstractions for School.People app.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>© 2021</Copyright>
+    <RepositoryUrl>https://github.com/oenarap/School.People.Core</RepositoryUrl>
+    <RepositoryType></RepositoryType>
+    <PackageTags>school people hrm</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Apps.Communication.Contracts" Version="3.0.2.1" />
-    <PackageReference Include="Apps.DataClient.Contracts" Version="2.0.1" />
+    <PackageReference Include="Apps.Communication.Core" Version="1.0.0" />
+    <PackageReference Include="Apps.DataClient.Core" Version="1.0.0" />
   </ItemGroup>
 
 </Project>

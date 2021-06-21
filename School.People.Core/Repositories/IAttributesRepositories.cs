@@ -1,7 +1,7 @@
 ﻿using System;
-using School.People.Core.Attributes;
-using Apps.DataClient.Contracts;
+using Apps.DataClient.Core;
 using System.Collections.Generic;
+using School.People.Core.Attributes;
 
 namespace School.People.Core.Repositories
 {

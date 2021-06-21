@@ -1,6 +1,6 @@
-﻿using School.People.Core.Attributes;
+﻿using Apps.Communication.Core;
 using System.Collections.Generic;
-using Apps.Communication.Contracts;
+using School.People.Core.Attributes;
 
 namespace School.People.Core.Commands
 {

@@ -1,6 +1,6 @@
 ﻿using School.People.Core.Attributes;
 using System.Collections.Generic;
-using Apps.Communication.Contracts;
+using Apps.Communication.Core;
 
 namespace School.People.Core.Events
 {
