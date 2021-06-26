@@ -8,7 +8,7 @@ namespace School.People.Core.Commands
     public interface ISaveChildAttributeCommand : ICommand<IFamilyIds> { }
     public interface ISavePdsDetailsCommand : ICommand<IPdsDetails> { }
     public interface ISaveCommentsCommand : ICommand<IComments> { }
-    public interface ISaveImageCommand : ICommand<IImage> { }
+    public interface ISaveImageCommand : ICommand<IIdPicture> { }
     public interface ISaveBirthdateCommand : ICommand<IDateOfBirth> { }
     public interface ISaveCharacterReferencesCommand : ICommand<ICharacterReferencesIds> { }
     public interface ISaveVerificationDetailsCommand : ICommand<IVerificationDetails> { }

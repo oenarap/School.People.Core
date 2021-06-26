@@ -15,7 +15,7 @@ namespace School.People.Core.Events
     public interface IChildAttributeUpdatedEvent : IEvent<IFamilyIds> { }
     public interface IPdsDetailsUpdatedEvent : IEvent<IPdsDetails> { }
     public interface ICommentsUpdatedEvent : IEvent<IComments> { }
-    public interface IImageUpdatedEvent : IEvent<IImage> { }
+    public interface IImageUpdatedEvent : IEvent<IIdPicture> { }
     public interface IBirthdateUpdatedEvent : IEvent<IDateOfBirth> { }
     public interface ICharacterReferencesUpdatedEvent : IEvent<ICharacterReferencesIds> { }
     public interface IVerificationDetailsUpdatedEvent : IEvent<IVerificationDetails> { }

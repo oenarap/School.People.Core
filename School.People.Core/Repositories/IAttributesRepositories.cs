@@ -18,7 +18,7 @@ namespace School.People.Core.Repositories
     public interface IVerificationDetailsRepository : IReadAsync<Guid, IVerificationDetails>, IUpdateAsync<IVerificationDetails> { }
 
     public interface ICommentsRepository : IReadAsync<Guid, IComments>, IUpdateAsync<IComments>, IDeleteAsync<IComments> { }
-    public interface IImagesRepository : IReadAsync<Guid, IImage>, IUpdateAsync<IImage> { }
+    public interface IImagesRepository : IReadAsync<Guid, IIdPicture>, IUpdateAsync<IIdPicture> { }
     public interface IAgencyMemberDetailsRepository : IReadAsync<Guid, IAgencyMemberDetails>, IUpdateAsync<IAgencyMemberDetails> { }
 
     public interface IContactDetailsRepository : IReadAsync<Guid, IContactDetails>, IUpdateAsync<IContactDetails> { }

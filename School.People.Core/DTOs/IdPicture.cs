@@ -3,17 +3,17 @@ using School.People.Core.Attributes;
 
 namespace School.People.Core.DTOs
 {
-    public class Images : Attribute, IImage
+    public class IdPicture : Attribute, IIdPicture
     {
         public byte[] RecentPhoto { get; set; }
 
-        public Images()
+        public IdPicture()
             : this(Guid.Empty) { }
 
-        public Images(Guid id)
+        public IdPicture(Guid id)
             : this(id, default) { }
 
-        public Images(Guid id, byte[] recentPhoto)
+        public IdPicture(Guid id, byte[] recentPhoto)
         {
             Id = id;
             RecentPhoto = recentPhoto;

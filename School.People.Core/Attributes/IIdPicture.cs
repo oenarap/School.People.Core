@@ -2,7 +2,7 @@
 
 namespace School.People.Core.Attributes
 {
-    public interface IImage : IAttribute
+    public interface IIdPicture : IAttribute
     {
         byte[] RecentPhoto { get; }
     }
