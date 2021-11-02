@@ -1,6 +1,6 @@
 ﻿namespace School.People.Core
 {
-    public static class Lengths
+    public static class Constants
     {
         // max lengths
         public const int CommentsMaxLength = 1024;
