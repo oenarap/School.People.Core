@@ -27,5 +27,38 @@ namespace School.People.Core.DTOs.Aggregates
         public string EmailAddress { get; set; }
         public string TelephoneNumber { get; set; }
         public string MobileNumber { get; set; }
+
+        public PersonalInformationAggregate(Guid id)
+           : this(id, null, null, null, null, null, 0d, 0d, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null) { }
+
+        public PersonalInformationAggregate(Guid id, DateTimeOffset? birthDate, string dualCitizenship, string dualCitizenshipMode, string country,
+            string bloodType, double weightInKilograms, double heightInCentimeters, string civilStatus, string otherCivilStatus, string sex, string tin,
+            string sssNumber, string philhealthNumber, string pagIbigIdNumber, string gsisIdNumber, string agencyId, string mobileNumber,
+            string telephoneNumber, string emailAddress, object birthAddress, object residentialAddress, object permanentAddress)
+        {
+            Id = id;
+            Birthdate = birthDate;
+            DualCitizenship = dualCitizenship;
+            DualCitizenshipMode = dualCitizenshipMode;
+            Country = country;
+            BloodType = bloodType;
+            WeightInKilograms = weightInKilograms;
+            HeightInCentimeters = heightInCentimeters;
+            CivilStatus = civilStatus;
+            OtherCivilStatus = otherCivilStatus;
+            Sex = sex;
+            Tin = tin;
+            SssNumber = sssNumber;
+            PhilhealthNumber = philhealthNumber;
+            PagIbigIdNumber = pagIbigIdNumber;
+            GsisIdNumber = gsisIdNumber;
+            AgencyId = agencyId;
+            MobileNumber = mobileNumber;
+            TelephoneNumber = telephoneNumber;
+            EmailAddress = emailAddress;
+            BirthAddress = birthAddress;
+            ResidentialAddress = residentialAddress;
+            PermanentAddress = permanentAddress;
+        }
     }
 }
