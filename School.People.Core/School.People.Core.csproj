@@ -9,13 +9,13 @@
     <RepositoryUrl>https://github.com/oenarap/School.People.Core</RepositoryUrl>
     <RepositoryType></RepositoryType>
     <PackageTags>school people hrm</PackageTags>
-    <AssemblyVersion>1.0.9.0</AssemblyVersion>
-    <FileVersion>1.0.9.0</FileVersion>
-    <Version>1.0.9</Version>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <FileVersion>1.1.0.0</FileVersion>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Apps.Communication.Core" Version="1.0.4" />
+    <PackageReference Include="Apps.Communication.Core" Version="1.0.6" />
     <PackageReference Include="Apps.DataClient.Core" Version="1.0.4" />
   </ItemGroup>
 
