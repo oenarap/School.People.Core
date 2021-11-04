@@ -15,7 +15,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Apps.Communication.Core" Version="1.0.6" />
+    <PackageReference Include="Apps.Communication.Core" Version="1.0.7" />
     <PackageReference Include="Apps.DataClient.Core" Version="1.0.4" />
   </ItemGroup>
 
