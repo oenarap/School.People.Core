@@ -7,12 +7,12 @@ namespace School.People.Core.Repositories
 {
     public interface IPersonDetailsRepository : IReadAsync<Guid, IPersonDetails>, IUpdateAsync<IPersonDetails> { }
     public interface IFamilyIdsRepository : IReadAsync<Guid, IFamilyIds> { }
-    public interface IEducationsRepository : IReadAsync<Guid, IEnumerable<IEducation>>, IInsertAsync<IEducation, Guid?, Guid>, IUpdateAsync<IEducation>, IDeleteAsync<IEducation> { }
-    public interface IEligibilitiesRepository : IReadAsync<Guid, IEnumerable<IEligibility>>, IInsertAsync<IEligibility, Guid?, Guid>, IUpdateAsync<IEligibility>, IDeleteAsync<IEligibility> { }
-    public interface IWorksRepository : IReadAsync<Guid, IEnumerable<IWork>>, IInsertAsync<IWork, Guid?, Guid>, IUpdateAsync<IWork>, IDeleteAsync<IWork> { }
-    public interface ICivicWorksRepository : IReadAsync<Guid, IEnumerable<ICivicWork>>, IInsertAsync<ICivicWork, Guid?, Guid>, IUpdateAsync<ICivicWork>, IDeleteAsync<ICivicWork> { }
-    public interface ITrainingsRepository : IReadAsync<Guid, IEnumerable<ITraining>>, IInsertAsync<ITraining, Guid?, Guid>, IUpdateAsync<ITraining>, IDeleteAsync<ITraining> { }
-    public interface IOtherInformationsRepository : IReadAsync<Guid, IEnumerable<IOtherInformation>>, IInsertAsync<IOtherInformation, Guid?, Guid>, IUpdateAsync<IOtherInformation>, IDeleteAsync<IOtherInformation> { }
+    public interface IEducationsRepository : IReadAsync<Guid, IEducation>, IInsertAsync<IEducation, Guid?>, IUpdateAsync<IEducation>, IDeleteAsync<IEducation> { }
+    public interface IEligibilitiesRepository : IReadAsync<Guid, IEligibility>, IInsertAsync<IEligibility, Guid?>, IUpdateAsync<IEligibility>, IDeleteAsync<IEligibility> { }
+    public interface IWorksRepository : IReadAsync<Guid, IWork>, IInsertAsync<IWork, Guid?>, IUpdateAsync<IWork>, IDeleteAsync<IWork> { }
+    public interface ICivicWorksRepository : IReadAsync<Guid, ICivicWork>, IInsertAsync<ICivicWork, Guid?>, IUpdateAsync<ICivicWork>, IDeleteAsync<ICivicWork> { }
+    public interface ITrainingsRepository : IReadAsync<Guid, ITraining>, IInsertAsync<ITraining, Guid?>, IUpdateAsync<ITraining>, IDeleteAsync<ITraining> { }
+    public interface IOtherInformationsRepository : IReadAsync<Guid, IOtherInformation>, IInsertAsync<IOtherInformation, Guid?>, IUpdateAsync<IOtherInformation>, IDeleteAsync<IOtherInformation> { }
     public interface IFaqsRepository : IReadAsync<Guid, IFaqs>, IUpdateAsync<IFaqs> { }
     public interface ICharacterReferencesIdsRepository : IReadAsync<Guid, ICharacterReferencesIds>, IUpdateAsync<ICharacterReferencesIds> { }
     public interface IVerificationDetailsRepository : IReadAsync<Guid, IVerificationDetails>, IUpdateAsync<IVerificationDetails> { }
