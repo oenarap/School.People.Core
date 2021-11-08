@@ -6,7 +6,7 @@ using School.People.Core.Attributes;
 namespace School.People.Core.Repositories
 {
     public interface IPersonDetailsRepository : IReadAsync<Guid, IPersonDetails>, IUpdateAsync<IPersonDetails> { }
-    public interface IFamilyIdsRepository : IReadAsync<Guid, IFamilyIds>, IReadAllAsync<Guid, IFamilyIds> { }
+    public interface IFamilyIdsRepository : IReadAsync<Guid, IFamilyIds> { }
     public interface IEducationsRepository : IReadAsync<Guid, IEnumerable<IEducation>>, IInsertAsync<IEducation, Guid?, Guid>, IUpdateAsync<IEducation>, IDeleteAsync<IEducation> { }
     public interface IEligibilitiesRepository : IReadAsync<Guid, IEnumerable<IEligibility>>, IInsertAsync<IEligibility, Guid?, Guid>, IUpdateAsync<IEligibility>, IDeleteAsync<IEligibility> { }
     public interface IWorksRepository : IReadAsync<Guid, IEnumerable<IWork>>, IInsertAsync<IWork, Guid?, Guid>, IUpdateAsync<IWork>, IDeleteAsync<IWork> { }
