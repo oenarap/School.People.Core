@@ -3,6 +3,7 @@ using School.People.Core.Attributes;
 
 namespace School.People.Core.DTOs.Aggregates
 {
+
     public class PersonalInformationAggregate : Attribute, IDateOfBirth, ICitizenship, IPersonDetails, IAgencyMemberDetails, IContactDetails
     {
         public object BirthAddress { get; set; }
