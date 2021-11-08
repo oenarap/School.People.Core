@@ -29,4 +29,5 @@ namespace School.People.Core.Repositories
     public interface IMotherIdsRepository : IUpdateAsync<Guid, Guid, bool> { }
     public interface IFatherIdsRepository : IUpdateAsync<Guid, Guid, bool> { }
     public interface ISpouseIdsRepository : IUpdateAsync<Guid, Guid?, bool> { }
+    public interface IChildrenIdsRepository : IReadAllAsync<Guid, Guid> { }
 }
