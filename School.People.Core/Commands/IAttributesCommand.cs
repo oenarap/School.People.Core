@@ -19,5 +19,5 @@ namespace School.People.Core.Commands
     public interface ISaveRegularWorksCommand : ICommand<IEnumerable<IWork>> { }
     public interface ISaveEligibilitiesCommand : ICommand<IEnumerable<IEligibility>> { }
     public interface ISaveEducationsCommand : ICommand<IEnumerable<IEducation>> { }
-    public interface ISavePersonalInformationCommand : ICommand<IPersonDetails> { }
+    public interface ISavePersonDetailsCommand : ICommand<IPersonDetails> { }
 }
