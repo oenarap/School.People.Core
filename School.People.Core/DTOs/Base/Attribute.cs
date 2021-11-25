@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace School.People.Core.DTOs
+namespace School.People.Core.Dtos
 {
     public abstract record Attribute : IAttribute
     {

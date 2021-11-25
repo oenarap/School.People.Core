@@ -1,7 +1,7 @@
 ﻿using System;
 using School.People.Core.Attributes;
 
-namespace School.People.Core.DTOs.Aggregates
+namespace School.People.Core.Dtos.Aggregates
 {
 
     public record PersonalInformationAggregate : Attribute, IDateOfBirth, 

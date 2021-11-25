@@ -2,7 +2,7 @@
 
 namespace School.People.Core
 {
-    public interface IIndexLogger : IDisposable
+    public interface IIndexLogger
     {
         int GetLog(string key);
         void Log(string key, int index);

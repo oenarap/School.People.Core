@@ -1,4 +1,4 @@
-﻿namespace School.People.Core.DTOs
+﻿namespace School.People.Core.Dtos
 {
     public abstract record Occupation : Activity, IOccupation
     {

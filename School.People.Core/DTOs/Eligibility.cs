@@ -1,7 +1,7 @@
 ﻿using System;
 using School.People.Core.Attributes;
 
-namespace School.People.Core.DTOs
+namespace School.People.Core.Dtos
 {
     public record Eligibility : IndexedAttribute, IEligibility
     {

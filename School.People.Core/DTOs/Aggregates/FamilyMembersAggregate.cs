@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace School.People.Core.DTOs.Aggregates
+namespace School.People.Core.Dtos.Aggregates
 {
     public record FamilyMembersAggregate : Attribute
     {

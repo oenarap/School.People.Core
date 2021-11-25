@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace School.People.Core.DTOs
+namespace School.People.Core.Dtos
 {
     /// <summary>
     /// A data transfer object for

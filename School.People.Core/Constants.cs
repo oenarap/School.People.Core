@@ -27,6 +27,6 @@
         public const int CommonNamesAndTitlesMaxLength = 64;
 
         // min lengths
-        public const int PersonNameFieldsMinLength = 2;
+        public const int PersonNameFieldsMinLength = 1;
     }
 }

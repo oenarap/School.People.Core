@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace School.People.Core.DTOs
+namespace School.People.Core.Dtos
 {
     public record RelatedPerson : Person, IRelatedPerson
     {
