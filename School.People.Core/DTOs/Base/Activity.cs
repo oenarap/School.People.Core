@@ -2,11 +2,11 @@
 
 namespace School.People.Core.DTOs
 {
-    public abstract class Activity : IndexedAttribute, IActivity
+    public abstract record Activity : IndexedAttribute, IActivity
     {
-        public DateTimeOffset? StartDate { get; set; }
-        public DateTimeOffset? EndDate { get; set; }
-        public bool IsOngoing { get; set; }
-        public Guid? LocationAddressId { get; set; }
+        public DateTimeOffset? StartDate { get; init; }
+        public DateTimeOffset? EndDate { get; init; }
+        public bool IsOngoing { get; init; }
+        public Guid? LocationAddressId { get; init; }
     }
 }

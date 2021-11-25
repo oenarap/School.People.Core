@@ -2,8 +2,8 @@
 
 namespace School.People.Core.DTOs
 {
-    public abstract class IndexedAttribute : Attribute, IIndexedAttribute
+    public abstract record IndexedAttribute : Attribute, IIndexedAttribute
     {
-        public Guid Index { get; set; }
+        public Guid Index { get; init; }
     }
 }

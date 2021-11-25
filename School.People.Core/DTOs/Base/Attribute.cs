@@ -2,8 +2,8 @@
 
 namespace School.People.Core.DTOs
 {
-    public abstract class Attribute : IAttribute
+    public abstract record Attribute : IAttribute
     {
-        public Guid Id { get; set; }
+        public Guid Id { get; init; }
     }
 }

@@ -1,9 +1,9 @@
 ﻿namespace School.People.Core.DTOs
 {
-    public abstract class Occupation : Activity, IOccupation
+    public abstract record Occupation : Activity, IOccupation
     {
-        public string PositionTitle { get; set; }
-        public string EmployerOrganizationOrBusinessName { get; set; }
-        public string TelephoneNumber { get; set; }
+        public string PositionTitle { get; init; }
+        public string EmployerOrganizationOrBusinessName { get; init; }
+        public string TelephoneNumber { get; init; }
     }
 }

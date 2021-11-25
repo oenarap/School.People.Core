@@ -4,62 +4,30 @@ using School.People.Core.Attributes;
 namespace School.People.Core.DTOs.Aggregates
 {
 
-    public class PersonalInformationAggregate : Attribute, IDateOfBirth, ICitizenship, IPersonDetails, IAgencyMemberDetails, IContactDetails
+    public record PersonalInformationAggregate : Attribute, IDateOfBirth, 
+        ICitizenship, IPersonDetails, IAgencyMemberDetails, IContactDetails
     {
-        public object BirthAddress { get; set; }
-        public object ResidentialAddress { get; set; }
-        public object PermanentAddress { get; set; }
-        public DateTimeOffset? Birthdate { get; set; }
-        public string DualCitizenshipMode { get; set; }
-        public string DualCitizenship { get; set; }
-        public string Country { get; set; }
-        public string Sex { get; set; }
-        public string CivilStatus { get; set; }
-        public string OtherCivilStatus { get; set; }
-        public double HeightInCentimeters { get; set; }
-        public double WeightInKilograms { get; set; }
-        public string BloodType { get; set; }
-        public string AgencyId { get; set; }
-        public string GsisIdNumber { get; set; }
-        public string PagIbigIdNumber { get; set; }
-        public string PhilhealthNumber { get; set; }
-        public string SssNumber { get; set; }
-        public string Tin { get; set; }
-        public string EmailAddress { get; set; }
-        public string TelephoneNumber { get; set; }
-        public string MobileNumber { get; set; }
-
-        public PersonalInformationAggregate(Guid id)
-           : this(id, null, null, null, null, null, 0d, 0d, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null) { }
-
-        public PersonalInformationAggregate(Guid id, DateTimeOffset? birthDate, string dualCitizenship, string dualCitizenshipMode, string country,
-            string bloodType, double weightInKilograms, double heightInCentimeters, string civilStatus, string otherCivilStatus, string sex, string tin,
-            string sssNumber, string philhealthNumber, string pagIbigIdNumber, string gsisIdNumber, string agencyId, string mobileNumber,
-            string telephoneNumber, string emailAddress, object birthAddress, object residentialAddress, object permanentAddress)
-        {
-            Id = id;
-            Birthdate = birthDate;
-            DualCitizenship = dualCitizenship;
-            DualCitizenshipMode = dualCitizenshipMode;
-            Country = country;
-            BloodType = bloodType;
-            WeightInKilograms = weightInKilograms;
-            HeightInCentimeters = heightInCentimeters;
-            CivilStatus = civilStatus;
-            OtherCivilStatus = otherCivilStatus;
-            Sex = sex;
-            Tin = tin;
-            SssNumber = sssNumber;
-            PhilhealthNumber = philhealthNumber;
-            PagIbigIdNumber = pagIbigIdNumber;
-            GsisIdNumber = gsisIdNumber;
-            AgencyId = agencyId;
-            MobileNumber = mobileNumber;
-            TelephoneNumber = telephoneNumber;
-            EmailAddress = emailAddress;
-            BirthAddress = birthAddress;
-            ResidentialAddress = residentialAddress;
-            PermanentAddress = permanentAddress;
-        }
+        public object BirthAddress { get; init; }
+        public object ResidentialAddress { get; init; }
+        public object PermanentAddress { get; init; }
+        public DateTimeOffset? Birthdate { get; init; }
+        public string DualCitizenshipMode { get; init; }
+        public string DualCitizenship { get; init; }
+        public string Country { get; init; }
+        public string Sex { get; init; }
+        public string CivilStatus { get; init; }
+        public string OtherCivilStatus { get; init; }
+        public double HeightInCentimeters { get; init; }
+        public double WeightInKilograms { get; init; }
+        public string BloodType { get; init; }
+        public string AgencyId { get; init; }
+        public string GsisIdNumber { get; init; }
+        public string PagIbigIdNumber { get; init; }
+        public string PhilhealthNumber { get; init; }
+        public string SssNumber { get; init; }
+        public string Tin { get; init; }
+        public string EmailAddress { get; init; }
+        public string TelephoneNumber { get; init; }
+        public string MobileNumber { get; init; }
     }
 }

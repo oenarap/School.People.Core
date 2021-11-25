@@ -4,6 +4,6 @@
 
     public interface IRelatedPerson : IPerson
     {
-        Relationship? Relationship { get; }
+        Relationship Relationship { get; }
     }
 }

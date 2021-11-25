@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp3.1; net5.0; netstandard2.0; netstandard2.1</TargetFrameworks>
     <Authors>Jake B. Parane</Authors>
     <Description>Class library containing core abstractions for School.People app.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -9,9 +8,10 @@
     <RepositoryUrl>https://github.com/oenarap/School.People.Core</RepositoryUrl>
     <RepositoryType></RepositoryType>
     <PackageTags>school people hrm</PackageTags>
-    <AssemblyVersion>1.1.7.0</AssemblyVersion>
-    <FileVersion>1.1.7.0</FileVersion>
-    <Version>1.1.7</Version>
+    <AssemblyVersion>1.1.8.0</AssemblyVersion>
+    <FileVersion>1.1.8.0</FileVersion>
+    <Version>1.1.8</Version>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
